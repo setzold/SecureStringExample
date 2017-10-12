@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="941e2602-7008-41c9-ad32-a4309cae720a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:41523/stringinsert/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ba5be7c6-8358-4591-ad95-6af6c9ac38c8" SourceId="1" SourceUrl="net.tcp://localhost:41523/stringinsert/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="9b5776a3-5d22-4948-9acf-2b087955e8ae" SourceId="1" SourceUrl="net.tcp://localhost:41523/stringinsert/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d058a876-319f-4554-aad0-9c703597a4ca" SourceId="1" SourceUrl="net.tcp://localhost:41523/stringinsert/mex" />
+    <MetadataFile FileName="System.Security.xsd" MetadataType="Schema" ID="1c66e7da-73f5-46ec-b3ce-0166f5ecc641" SourceId="1" SourceUrl="net.tcp://localhost:41523/stringinsert/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
